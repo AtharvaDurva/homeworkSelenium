@@ -12,7 +12,10 @@ public class Firefox {
         driver.get("https://www.google.co.uk/");
 
         System.out.println(driver.getTitle());
-        
+        driver.manage().window().maximize();
+        driver.get("https://demo.nopcommerce.com/");
+
+
 
     }
 }
